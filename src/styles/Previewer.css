@@ -1,0 +1,78 @@
+#preview-container
+{
+	width: 58vw;
+	min-height: 80vh;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	overflow-x: hidden;
+	overflow-wrap: inherit;
+}
+#preview-header
+{
+	position: relative;
+	border: solid 1px black;
+	z-index: 10;
+	background-color: rgb(130, 130, 230);
+	font-weight: bold;
+	margin-bottom: 0;
+	font-size: 23px;
+	padding: 5px 0;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+#preview
+{
+	font-family: segoe UI, sans-serif;
+	text-align: left;
+	height: 100%;
+	margin-top: 0;
+	border: solid 1px black;
+	background-color: rgb(220, 230, 250);
+	padding: 20px;
+}
+#preview h1
+{
+	font-size: 33px;
+	margin-bottom: 0;
+}
+#preview h2
+{
+	font-size: 23px;
+}
+#preview pre
+{
+	display: block;
+	width: 95%;
+}
+#preview pre code
+{
+	display: inline-block;
+	width: 100%;
+	padding: 10px;
+}
+#preview code
+{
+	background-color: rgb(245, 245, 255);
+	font-family: consolas;
+	padding: 5px;
+	border-radius: 3px;
+}
+#preview blockquote
+{
+	font-family: consolas;
+	border-left: 2px solid rgb(50, 50, 120);
+	color: rgb(50, 50, 120);
+	margin-left: 25px;
+	display: block;
+	padding: 0 15px;
+}
+#preview ol
+{
+	padding-left: 20px;
+}
+#preview img
+{
+	display: block;
+	max-height: 200px;
+}
