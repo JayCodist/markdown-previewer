@@ -6,6 +6,7 @@ textarea
 	border: solid 1px black;
 	background-color: rgb(220, 230, 250);
 	padding: 10px;
+	font-size: 15px;
 }
 #editor-container
 {
@@ -27,4 +28,15 @@ textarea
 	font-size: 23px;
 	padding: 5px 0;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+
+@media (max-width: 800px)
+{
+	#editor-container
+	{
+		width: 87vw;
+		margin: 1rem auto;
+		height: 60vh;
+	}
 }

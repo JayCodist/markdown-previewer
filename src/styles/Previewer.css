@@ -57,6 +57,7 @@
 	font-family: consolas;
 	padding: 5px;
 	border-radius: 3px;
+	overflow-x: scroll;
 }
 #preview blockquote
 {
@@ -75,4 +76,14 @@
 {
 	display: block;
 	max-height: 200px;
+}
+
+
+@media (max-width: 800px)
+{
+	#preview-container
+	{
+		width: 92vw;
+		margin: 1rem auto;
+	}
 }

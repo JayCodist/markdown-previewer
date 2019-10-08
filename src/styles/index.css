@@ -27,5 +27,8 @@ body
 
 @media (max-width: 800px)
 {
-	
+	#components
+	{
+		flex-direction: column;
+	}
 }
